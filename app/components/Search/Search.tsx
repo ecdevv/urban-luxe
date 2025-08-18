@@ -113,7 +113,7 @@ const Search = () => {
     <>
       <form id='searchForm' onSubmit={handleSearch} aria-label='Search Box' className={`search-container ${mobileMenuToggle ? 'search-container-mobile' : 'search-container-mobile-disabled'}`}>
         <div className='search-content'>
-          <button ref={clearRef} onClick={handleSearchClear} aria-label='Search Clear Button' className={`search-icon-display ${query ? 'true' : 'false'}`}>
+          <button ref={clearRef} type='button' onClick={handleSearchClear} aria-label='Search Clear Button' className={`search-icon-display ${query ? 'true' : 'false'}`}>
             <svg
               aria-hidden
               viewBox="0 0 24 24"
@@ -130,7 +130,7 @@ const Search = () => {
             </svg>
           </button>
           <input ref={inputRef} aria-labelledby='searchForm' className={`search-box ${query ? 'queried' : ''}`} type='search' placeholder='Search' value={query} onChange={(e) => setQuery(e.target.value)}/>
-          <button ref={searchRef} onClick={handleSearch} aria-label='Search Submission Button'>
+          <button ref={searchRef} type='submit' aria-label='Search Submission Button'>
             <svg
               aria-hidden
               viewBox="0 0 1024 1024"
