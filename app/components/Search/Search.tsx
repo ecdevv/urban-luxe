@@ -7,7 +7,6 @@ import { Product } from '@/app/utility/types';
 import { capitalizeFirstLetter } from '@/app/utility/helper';
 import { getProducts, filterProductsBySearch } from '@/server/mockValidations';
 import './Search.css'
-import { clear } from 'console';
 
 const Search = () => {
   const [query, setQuery] = useState('');
