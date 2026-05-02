@@ -24,7 +24,7 @@ Urban Luxe is a _fictional_ and comprehensive e-commerce apparel project designe
 git clone https://github.com/ecdevv/urban-luxe.git
 
 # Navigate into the repository:
-cd /urban-luxe
+cd urban-luxe
 
 # Install dependencies:
 npm install
