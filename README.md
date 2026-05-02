@@ -66,7 +66,7 @@ npm start or npm run dev
   malformed URLs causes duplicate entries in browser history
   (UpdateURL component)
 
-## Credits & License
+## Credits
 
 ### Design Inspiration
 
@@ -128,10 +128,8 @@ Aesthetic and layout inspiration drawn from: Louis Vuitton, Versace, Gymshark, N
 - Mobile
   - Photo by [Jeremy Beadle](https://unsplash.com/photos/man-holding-his-black-suit-qnU-UR0o5X8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
 
-### License
+## License
 
 The code for this project is licensed under the **MIT License**. See the `LICENSE` file for details.
 
-### Third-Party Assets
-
-All third-party assets are used strictly for demonstration purposes and remain the property of their respective owners.
+All **third-party assets** are used strictly for demonstration purposes and remain the property of their respective owners.
