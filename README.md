@@ -1,9 +1,16 @@
-# Urban Luxe - E-Commerce Apparel Store
+<p align="center">
+  <h1 align="center">Urban Luxe - E-Commerce Apparel Store</h1>
+  <p align="center">An e-commerce apparel store of the luxury clothing brand Urban Luxe.</strong></p>
+</p>
 
+<p align="center">
+  <img src="/public/images/urbanluxe_preview.png" alt="Site Preview"/>
+</p>
+
+# Overview
 Urban Luxe is a _fictional_ and comprehensive e-commerce apparel project designed to hone my front-end development skills. The goal was to build a fully functional, visually polished online store from scratch using Next.js and React, while minimizing external dependencies. The project emphasizes scalable architecture, backend integration patterns, and SEO best practices.
 
 ## Tools & Frameworks
-
 - **Core:** HTML, CSS, TypeScript
 - **Framework:** Next.js, React
 - **Key Libraries:** `react-transition-group`, `react-swipeable`, `sharp`, `ts-node`
