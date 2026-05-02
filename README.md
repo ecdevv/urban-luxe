@@ -4,7 +4,9 @@
 </p>
 
 <p align="center">
-  <img src="/public/images/urbanluxe_preview.webp" alt="Site Preview"/>
+  <a href="https://urbanluxe.vercel.app" target="_blank" rel="noopener noreferrer" align="center">
+    <img src="/public/images/urbanluxe_preview.webp" alt="Site Preview"/>
+  </a>
 </p>
 
 # Overview
