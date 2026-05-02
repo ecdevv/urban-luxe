@@ -291,6 +291,8 @@
 
 .wish-page-content {
   display: flex;
+  flex-direction: column;
+  min-height: calc(100dvh - 104px - 250px);
 }
 
 .cart-page-card.wishlist-card {

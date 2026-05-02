@@ -1,73 +1,78 @@
 # Urban Luxe - E-Commerce Apparel Store
 
-Urban Luxe is a <u>fictional</u> and comprehensive e-commerce apparel web project aimed at honing my front-end development skills. The objective was to build a fully functional and visually appealing online store from the ground up, utilizing frameworks such as Next.js and React while minimizing the use of external libraries. Additionally, the project focused on developing with backend integration in mind to achieve a robust and scalable architecture, while also emphasizing learning and implementing SEO best practices.
+Urban Luxe is a _fictional_ and comprehensive e-commerce apparel project designed to hone my front-end development skills. The goal was to build a fully functional, visually polished online store from scratch using Next.js and React, while minimizing external dependencies. The project emphasizes scalable architecture, backend integration patterns, and SEO best practices.
 
-### Features
+## Tools & Frameworks
 
-- Simulates a real-world project by using mock data and mock backend logic to handle user interactions and data processing
-- User-friendly product search and filtering functionality
-- Responsive design for optimal viewing on various devices
-- Smooth animations and transitions for enhanced user experience
-- Effective state management by utilizing local browser storage and context APIs
-- Generated and used blur data to improve perceived performance by displaying low-resolution placeholders for images while high-resolution images load, enhancing the user experience with faster visual feedback
-- Implemented metadata and sitemap to improve SEO by providing crucial information about the website to search engines, such as the title, description, opengraph, and keywords. This allows search engines to better understand the content of the website and rank it more appropriately in search results
+- **Core:** HTML, CSS, TypeScript
+- **Framework:** Next.js, React
+- **Key Libraries:** `react-transition-group`, `react-swipeable`, `sharp`, `ts-node`
+
+## Features
+- **Real-World Simulation:** Uses mock data and backend logic to handle user interactions and state management
+- **Search & Filtering:** Intuitive product search and dynamic filtering system
+- **Responsive Design:** Fully adaptive layout optimized for all screen sizes
+- **Premium UX:** Polished animations and transitions for a high-end feel
+- **Efficient State Management:** Utilizes React Context API and LocalStorage for seamless data flow
+- **Performance Optimization:** Implements blur placeholder images to improve perceived load speeds and Core Web Vitals
+- **SEO Optimization:** Dynamic metadata, sitemaps, and OpenGraph tags for better search engine visibility
 
 ## Installation
 
 ```bash
 # Clone the repository:
-$ git clone https://github.com/ecdevv/urban-luxe.git
+git clone https://github.com/ecdevv/urban-luxe.git
 
 # Navigate into the repository:
-$ cd /urban-luxe
+cd /urban-luxe
 
 # Install dependencies:
-$ npm install
+npm install
 
 # Run the app:
-$ npm start or npm run dev
+npm start or npm run dev
 ```
 
-## Notes/Potential Improvements/Known Issues
+## Notes / Potential Improvements / Known Issues
 
 ### Notes
 
 - Attempted to make everything reusable and from scratch
-- I limited the use of external libraries to these: react-transition-group, react-swipeable (for mobile swiping), sharp for more optimized image processing and blur data, and ts-node to execute the generateBlurDataUrls.ts script at build time
-- I didn't use any Tailwind, but removing it seems to remove some default styling so I just kept it in
-- Collections and Checkout buttons do not do anything and just relink to the homepage
-- Login and Registration pages do not have any functionality
-- Search functionality on the front-end is very simple and likely would not work as well on a much larger scale
-- Mobile Navbar/Menu is a separate component instead of just reusing the original component
-- Mock data may not be the most scalable and should likely be split into different schemas/tables (I only used 2 .json files)
-- On the Product page, real products would likely be using lighter and more consistent backgrounds for images, which would allow for the dark border on selected options to stand out more
+- Limited the use of external libraries to: `react-transition-group`, `react-swipeable` (mobile swiping), `sharp` (image optimization/blur data), and `ts-node` (build-time scripts)
+- Tailwind CSS is retained despite limited use, as it provides necessary default resets/styling
+- Collections and Checkout buttons are currently placeholder links to the homepage
+- Login/Registration pages are UI-only with no backend functionality
+- Front-end search is lightweight and would need backend/database integration for production scale
+- Mobile Navbar/Menu is a separate component for better state handling rather than reusing the desktop variant
+- Mock data is stored in two JSON files and would ideally be split into structured schemas/tables for scalability
+- Product page image backgrounds are currently dark to match the theme; production would likely use lighter, consistent backgrounds to make selection borders stand out
 
 ### Potential Improvements
 
-- Improve the emphasis on user actions such as adding products to a shopping cart or signing up for a newsletter
-- Consider adding more visual elements to various pages such as sliders or showcases for a better user experience 
-  - The current simplicity of the front page, for example, makes it a good starting point, but there's room for more engaging and interactive elements
-  - Product page could definitely use something like a review section
-  - Could add additional headers/navigation to store and product pages
+- Enhance CTAs (add-to-cart, newsletter signup) for better user
+  action emphasis
+- Add visual elements to increase engagement:
+  - Front page: sliders, showcases, or featured collections
+  - Product pages: customer reviews section
+  - Store pages: secondary navigation or sticky headers
 
 ### Known Issues
 
-- On the Store page, the transitions on the filter menu are buggy on Firefox
-- Carousel on Front page has weird lines in the borders on Microsoft Edge (haven't tested on other browsers besides Firefox)
-- Image Carousels on the store page does not properly set the first index correctly whenever user changes the images in the carousel and then selects from or to the FIRST option only
-- Repeatedly changing the URL/clicking on the link to store/product pages that is not exactly the same as the validated URLs will cause it to be pushed in to the browser history (using UpdateURL component)
+- **Firefox:** Filter menu transitions on the Store page are buggy
+- **Edge:** Carousel on the front page has visual border artifacts
+- **Product Carousel:** Doesn't properly set the first index when
+  switching between options and selecting the first item
+- **URL History:** Navigating to store/product pages via slightly
+  malformed URLs causes duplicate entries in browser history
+  (UpdateURL component)
 
-## Credits
+## Credits & License
 
-<strong>Tools & Frameworks:</strong> HTML, CSS, Typescript, Next.js, React
+### Design Inspiration
 
-<strong>Libraries Used:</strong> react-transition-group, react-swipeable, sharp, ts-node
+Aesthetic and layout inspiration drawn from: Louis Vuitton, Versace, Gymshark, Nike, Adidas.
 
-<strong>Design Inspiration:</strong> Louis Vuitton, Versace, Gymshark, Nike, Adidas
-
-<strong>Images:</strong> Unsplash
-
-### Images
+### Image Credits
 
 #### Home Carousel
 
@@ -122,3 +127,11 @@ $ npm start or npm run dev
   - Photo by [Yuriy Bogdanov](https://unsplash.com/photos/man-wearing-black-coat-leaning-on-brown-brick-wall-MIkxc6WV9QA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
 - Mobile
   - Photo by [Jeremy Beadle](https://unsplash.com/photos/man-holding-his-black-suit-qnU-UR0o5X8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+
+### License
+
+The code for this project is licensed under the **MIT License**. See the `LICENSE` file for details.
+
+### Third-Party Assets
+
+All third-party assets are used strictly for demonstration purposes and remain the property of their respective owners.

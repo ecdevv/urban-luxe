@@ -204,7 +204,7 @@ const Footer = () => {
       </div>
       <div className="footer-copyright">
         <p>
-          © 2024 Urban Luxe. All rights reserved. Site design by{' '}
+          © 2024 Urban Luxe. Portfolio Project — Code available under MIT. Demo/mock project. Site design by{' '}
           <Link href="https://ericchour.vercel.app" aria-label="Author's Website" target="_blank" className="footer-link">Eric Chour</Link>
         </p>
       </div>
