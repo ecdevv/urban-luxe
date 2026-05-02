@@ -1,6 +1,6 @@
 <p align="center">
   <h1 align="center">Urban Luxe - E-Commerce Apparel Store</h1>
-  <p align="center">An e-commerce apparel store of the luxury clothing brand Urban Luxe.</strong></p>
+  <p align="center">An e-commerce apparel store of the luxury clothing brand Urban Luxe.</p>
 </p>
 
 <p align="center">
