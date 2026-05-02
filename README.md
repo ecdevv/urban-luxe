@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <img src="/public/images/urbanluxe_preview.png" alt="Site Preview"/>
+  <img src="/public/images/urbanluxe_preview.webp" alt="Site Preview"/>
 </p>
 
 # Overview
